@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/home.dart';
 import 'screens/family.dart';
-//import 'screens/business.dart';
+import 'screens/chat.dart';
 //import 'screens/school.dart';
 
 void main() {
@@ -37,6 +37,7 @@ class _MainNavigationState extends State<MainNavigation> {
   final List<Widget> _screens = [
        HomeScreen(),
        DashboardScreen(),
+       ChatListScreen(),
     //const SchoolScreen(),
   ];
 
